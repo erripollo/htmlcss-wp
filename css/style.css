@@ -17,6 +17,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 200;
 }
 
 /* Site Hrader css */
@@ -42,9 +43,20 @@ nav > a{
 /* /Site Hrader css */
 
 /* Site Main css */
-.img_main{
-    height: 300px;
-    background-color: chocolate;
+.main_banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/banner.jpg');
+    height: 450px;
+    background-position: center;
+    padding-top: 280px;
+    padding-left: 60px;
+    color: white;
+    border-radius: 10px;
+}
+
+.main_banner > h2{
+    font-weight: 350;
+    font-size: 2rem;
+    width: 550px;
 }
 
 .title{
