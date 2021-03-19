@@ -17,14 +17,10 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 /* Site Hrader css */
-header{
-   
-}
-
 .logo{
     width: 150px;
 }
@@ -37,7 +33,6 @@ nav > a{
     text-decoration: none;
     color: #878787;
     text-transform: uppercase;
-    font-weight: 250;
     margin-right: 10px;
 }
 /* /Site Hrader css */
@@ -60,29 +55,61 @@ nav > a{
 }
 
 .title{
-    height: 80px;
-    background-color: lightslategray;
+    margin: 30px 0 30px;
+}
+
+.title > h2{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.title > span{
+    color: #969696;
+}
+
+#site_main h4{
+    color: #656565;
+    margin-top: 20px;
+}
+
+#site_main p{
+    color: #969696;
+    margin-top: 10px;
 }
 
 .col_main{
-    width: 50%;
-    height: 300px;
+    width: 60%;
     float: left;
-    background-color: navy;
+    padding: 0 20px;
+}
+
+.box_img{
+    width: 100%;
+    height: 200px; 
+    border-radius: 10px;
+}
+
+.col_main > .box_img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/banner-2.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .col_left, .col_right{
-    width: 25%;
-    height: 300px;
+    width: 20%;
     float: left;
 }
 
-.col_left{
-    background-color: rebeccapurple;
+.col_left > .box_img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/img-1.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
-.col_right{
-    background-color: royalblue;
+.col_right > .box_img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/img-3.jpg');
+    background-position: center;
+    background-size: cover;
 }
 /* /Site Main css */
 
