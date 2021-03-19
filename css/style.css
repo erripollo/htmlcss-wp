@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Site Hrader css */
+header{
+   
+}
+
+.logo{
+    width: 150px;
+}
+
+.logo, nav{
+    margin-bottom: 30px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #878787;
+    text-transform: uppercase;
+    font-weight: 250;
+    margin-right: 10px;
+}
+/* /Site Hrader css */
+
+/* Site Main css */
+.img_main{
+    height: 300px;
+    background-color: chocolate;
+}
+
+.title{
+    height: 80px;
+    background-color: lightslategray;
+}
+
+.col_main{
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: navy;
+}
+
+.col_left, .col_right{
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+.col_left{
+    background-color: rebeccapurple;
+}
+
+.col_right{
+    background-color: royalblue;
+}
+/* /Site Main css */
+
+
+/* Site Footer css */
+
+footer{
+    height: 50px;
+    background-color: green;
+}
+
+/* /Site Footer css */
